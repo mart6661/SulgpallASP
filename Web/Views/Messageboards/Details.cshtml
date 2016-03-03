@@ -1,0 +1,58 @@
+﻿@model Domain.Messageboard
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Messageboard</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Match.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Match.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Player.Firstname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Player.Firstname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CompetetionId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CompetetionId)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.MessageboardId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

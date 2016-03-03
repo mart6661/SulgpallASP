@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Domain.Leaderboard>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Player.Firstname)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Player.Firstname)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.LeaderboardId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.LeaderboardId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.LeaderboardId })
+        </td>
+    </tr>
+}
+
+</table>

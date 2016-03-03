@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Domain.Calender" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAkAAAAAAAAAAAAAAIAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Calender.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domain.Commentar" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAIAwABAAA=</HashCode>
+      <FileName>Commentar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domain.Competition" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAIAQAAAAIAARAAAAKAUAAAAA=</HashCode>
+      <FileName>Competition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domain.Leaderboard" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAIAQAAAAA=</HashCode>
+      <FileName>Leaderboard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domain.Match" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAoAAAAAAAgAAAAAAAAAAQAAAAgAARCAAAIAQAAAAA=</HashCode>
+      <FileName>Match.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domain.Messageboard" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAgAgAAAAAgAEAAAAAEAAIAAACAAAAAAAAIAQAAAAA=</HashCode>
+      <FileName>Messageboard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domain.Player" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AhAAAEAAACABAIAIAAAECEAAAACAAAAACAAIAAAAAAA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domain.PlayerType" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAACAQAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PlayerType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domain.Result" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAIAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Result.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
